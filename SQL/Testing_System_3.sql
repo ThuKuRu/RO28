@@ -107,17 +107,17 @@ VALUES  				('Dev'),
                         ('Scrum Master'), 
                         ('PM');
 
-INSERT INTO `Account` 	(Email, 			 Username, 		 FullName, 		DepartmentID, 	PositionID, 	 CreateDate)
-VALUES 					('abc1@gmail.com', 	'Username1', 	'FullName1', 	10, 			3, 				'1972-05-25'),
-						('abc2@gmail.com', 	'Username2', 	'FullName2', 	1, 				2, 				'2006-08-30'),
-						('abc3@gmail.com', 	'Username3', 	'FullName3', 	3, 				4, 				'2016-12-08'),
-						('abc4@gmail.com', 	'Username4', 	'FullName4',	4, 				1, 				'2000-10-06'),
-						('abc5@gmail.com', 	'Username5', 	'FullName5', 	2, 				2,				'2008-03-21'),
-						('abc6@gmail.com', 	'Username6', 	'FullName6', 	5, 				3, 				'1997-07-14'),
-						('abc7@gmail.com', 	'Username7', 	'FullName7', 	6, 				1, 				'1990-06-25'),
-						('abc8@gmail.com', 	'Username8', 	'FullName8', 	7, 				2, 				'2020-11-24'),
-						('abc9@gmail.com', 	'Username9', 	'FullName9', 	2, 				4, 				'2015-03-25'),
-						('abc10@gmail.com', 'Username10', 	'Dao', 			9, 				3, 				'2014-06-04');
+INSERT INTO `Account` 	(Email, 			 Username, 		 FullName, 			DepartmentID, 	PositionID, 	 CreateDate)
+VALUES 					('abc1@gmail.com', 	'Username1', 	'FullName12345', 	10, 			3, 				'1972-05-25'),
+						('abc2@gmail.com', 	'Username2', 	'FullName2344', 	1, 				2, 				'2006-08-30'),
+						('abc3@gmail.com', 	'Username3', 	'FullName312', 		3, 				4, 				'2016-12-08'),
+						('abc4@gmail.com', 	'Username4', 	'FullName41',		4, 				1, 				'2000-10-06'),
+						('abc5@gmail.com', 	'Username5', 	'FullName5', 		2, 				2,				'2008-03-21'),
+						('abc6@gmail.com', 	'Username6', 	'FullName6', 		5, 				3, 				'1997-07-14'),
+						('abc7@gmail.com', 	'Username7', 	'FullName7', 		6, 				1, 				'1990-06-25'),
+						('abc8@gmail.com', 	'Username8', 	'FullName8', 		7, 				2, 				'2020-11-24'),
+						('abc9@gmail.com', 	'Username9', 	'FullName9', 		2, 				4, 				'2015-03-25'),
+						('abc10@gmail.com', 'Username10', 	'Dao', 				9, 				3, 				'2014-06-04');
 
 INSERT INTO `Group` 	(GroupName, 		CreatorID, 		 CreateDate)
 VALUES 					('GroupName1', 		25, 			'2022-05-30'),
@@ -224,11 +224,11 @@ WHERE  DepartmentName = 'Sale';
 
 -- Question 4: lấy ra thông tin account có full name dài nhất
 SELECT * FROM `Account`
-WHERE FullName = (SELECT MAX(FullName) FROM `Account`);
+WHERE length(FullName) = (SELECT MAX(length(FullName)) FROM `Account`);
 
 -- Question 5: Lấy ra thông tin account có full name dài nhất và thuộc phòng ban có id = 3
 SELECT * FROM `Account`
-WHERE DepartmentID = '3' AND FullName = (SELECT MAX(FullName) FROM `Account` WHERE DepartmentID = '3');
+WHERE DepartmentID = '3' AND length(FullName) = (SELECT MAX(length(FullName)) FROM `Account` WHERE DepartmentID = '3');
 
 -- Question 6: Lấy ra tên group đã tham gia trước ngày 20/12/2019
 SELECT GroupName FROM `Group`
