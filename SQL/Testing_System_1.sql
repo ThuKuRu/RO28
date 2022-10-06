@@ -1,41 +1,37 @@
-DROP DATABASE IF EXISTS Testing_System_Assigment_1;
-CREATE DATABASE Testing_System_Assigment_1;
-USE Testing_System_Assigment_1;
+DROP DATABASE IF EXISTS Testing_System_Assigment;
+CREATE DATABASE Testing_System_Assigment;
+USE Testing_System_Assigment;
 
-DROP TABLE IF EXISTS `Department`;
 CREATE TABLE `Department` (
-	DepartmentID 			INT PRIMARY KEY,
-    DepartmentName			VARCHAR(30) NOT NULL UNIQUE KEY
-    );
-
-DROP TABLE IF EXISTS `Position`;  
+	DepartmentID 			TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    DepartmentName			NVARCHAR(30) NOT NULL UNIQUE KEY
+);
+    
 CREATE TABLE `Position` (
 	PositionID 				TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    PositionName			ENUM('Dev', 'Test', 'Scrum Master', 'PM') NOT NULL UNIQUE KEY
-    );
+    PositionName			ENUM('Dev', 'Test', 'Scrum Master', 'PM') NOT NULL UNIQUE KEY 
+);
     
-DROP TABLE IF EXISTS `Account`; 
 CREATE TABLE `Account` (
 	AccountID				TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     Email					VARCHAR(50) NOT NULL UNIQUE KEY,
     Username				VARCHAR(50) NOT NULL UNIQUE KEY,
     FullName				VARCHAR(100) NOT NULL UNIQUE KEY,
-    DepartmentID			INT NOT NULL,
+    DepartmentID			TINYINT UNSIGNED NOT NULL,
     PositionID				TINYINT UNSIGNED NOT NULL,
     CreateDate				DATE NOT NULL,
 	FOREIGN KEY (DepartmentID) REFERENCES  `Department`(DepartmentID) ON DELETE CASCADE,
 	FOREIGN KEY (PositionID) REFERENCES  `Position`(PositionID) ON DELETE CASCADE
 );
 
-DROP TABLE IF EXISTS `Group`;
 CREATE TABLE `Group` (
 	GroupID					TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     GroupName				VARCHAR(50) NOT NULL UNIQUE KEY,
-    CreatorID				TINYINT NOT NULL UNIQUE KEY,
-    CreateDate				DATE NOT NULL
+    CreatorID				TINYINT UNSIGNED NOT NULL UNIQUE KEY,
+    CreateDate				DATE NOT NULL,
+    FOREIGN KEY (CreatorID) REFERENCES  `Account`(AccountID) ON DELETE CASCADE
 );
 
-DROP TABLE IF EXISTS `GroupAccount`;
 CREATE TABLE `GroupAccount` (
 	GroupID					TINYINT UNSIGNED NOT NULL,
     AccountID				TINYINT UNSIGNED AUTO_INCREMENT,
@@ -44,32 +40,28 @@ CREATE TABLE `GroupAccount` (
     FOREIGN KEY (AccountID) REFERENCES  `Account`(AccountID) ON DELETE CASCADE
 );
 
-DROP TABLE IF EXISTS `TypeQuestion`;
 CREATE TABLE `TypeQuestion` (
 	TypeID					TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     TypeName				ENUM('Essay', 'Multiple-Choice') NOT NULL
 );
 
-DROP TABLE IF EXISTS `CategoryQuestion`;
 CREATE TABLE `CategoryQuestion` (
 	CategoryID 				TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     CategoryName			ENUM('Java', '.NET', 'SQL', 'Postman', 'Ruby')
 );
 
-DROP TABLE IF EXISTS `Question`;
 CREATE TABLE `Question` (
 	QuestionID			TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	Content				VARCHAR(100) NOT NULL UNIQUE KEY,
 	CategoryID			TINYINT UNSIGNED NOT NULL,
 	TypeID 				TINYINT UNSIGNED NOT NULL,
-	CreatorID			TINYINT NOT NULL NOT NULL,
+	CreatorID			TINYINT UNSIGNED NOT NULL,
 	CreateDate			DATE NOT NULL,
     FOREIGN KEY (CategoryID) REFERENCES  `CategoryQuestion`(CategoryID) ON DELETE CASCADE,
     FOREIGN KEY (TypeID) REFERENCES  `TypeQuestion`(TypeID) ON DELETE CASCADE,
     FOREIGN KEY (CreatorID) REFERENCES  `Group`(CreatorID) ON DELETE CASCADE
 );
- 
-DROP TABLE IF EXISTS `Answer`;
+  
 CREATE TABLE `Answer` (
 	AnswerID			TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     Content				VARCHAR(100) NOT NULL UNIQUE KEY,
@@ -78,20 +70,19 @@ CREATE TABLE `Answer` (
 	FOREIGN KEY (QuestionID) REFERENCES  `Question`(QuestionID) ON DELETE CASCADE
 );
 
-DROP TABLE IF EXISTS `Exam`;
 CREATE TABLE `Exam` (
 	ExamID 				TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     `Code`				TINYINT NOT NULL UNIQUE KEY,
     Title				VARCHAR(50) NOT NULL UNIQUE KEY,
     CategoryID			TINYINT UNSIGNED NOT NULL,
-    Duration			TIME NOT NULL,
-    CreatorID			TINYINT NOT NULL,
-    CreateDate			DATE NOT NULL,
+    Duration			TINYINT NOT NULL,
+    CreatorID			TINYINT UNSIGNED NOT NULL,
+    CreateDate			DATETIME NOT NULL DEFAULT NOW(),
 	FOREIGN KEY (CategoryID) REFERENCES  `CategoryQuestion`(CategoryID) ON DELETE CASCADE,
-    FOREIGN KEY (CreatorID) REFERENCES  `Group`(CreatorID) ON DELETE CASCADE
+    FOREIGN KEY (CreatorID) REFERENCES  `Group`(CreatorID) ON DELETE CASCADE,
+    FOREIGN KEY (CreatorID) REFERENCES  `Account`(AccountID) ON DELETE CASCADE
 );
 
-DROP TABLE IF EXISTS `ExamQuestion`;
 CREATE TABLE `ExamQuestion` (
 	ExamID				TINYINT UNSIGNED NOT NULL,
     QuestionID			TINYINT UNSIGNED NOT NULL,
