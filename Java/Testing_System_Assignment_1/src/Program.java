@@ -2,7 +2,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Program {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // Department
         Department dep1 = new Department();
         dep1.departmentID = 1;
@@ -37,7 +37,7 @@ public class Program {
         acc1.fullName = "FullName12345";
         acc1.departmentID = dep1;
         acc1.positionID = pos3;
-        acc1.createDate = LocalDate.of(2022,5,23);
+        acc1.createDate = LocalDate.of(2022, 5, 23);
 
         Account acc2 = new Account();
         acc2.accountID = 2;
@@ -46,7 +46,7 @@ public class Program {
         acc2.fullName = "FullName234";
         acc2.departmentID = dep2;
         acc2.positionID = pos2;
-        acc2.createDate = LocalDate.of(2020,5,25);
+        acc2.createDate = LocalDate.of(2020, 5, 25);
 
         Account acc3 = new Account();
         acc3.accountID = 3;
@@ -55,42 +55,42 @@ public class Program {
         acc3.fullName = "FullName3";
         acc3.departmentID = dep3;
         acc3.positionID = pos1;
-        acc3.createDate = LocalDate.of(2019,2,28);
+        acc3.createDate = LocalDate.of(2019, 2, 28);
 
         // Group
         Group gr1 = new Group();
         gr1.groupID = 1;
         gr1.groupName = "GroupName1";
         gr1.creatorID = acc3;
-        gr1.createDate = LocalDate.of(2019,9,29);
+        gr1.createDate = LocalDate.of(2019, 9, 29);
 
         Group gr2 = new Group();
         gr2.groupID = 1;
         gr1.groupName = "GroupName2";
         gr2.creatorID = acc2;
-        gr2.createDate = LocalDate.of(2016,8,28);
+        gr2.createDate = LocalDate.of(2016, 8, 28);
 
         Group gr3 = new Group();
         gr3.groupID = 1;
         gr3.groupName = "GroupName1";
         gr3.creatorID = acc2;
-        gr3.createDate = LocalDate.of(2018,12,30);
+        gr3.createDate = LocalDate.of(2018, 12, 30);
 
         //GroupAccount
         GroupAccount gra1 = new GroupAccount();
         gra1.groupID = gr3;
         gra1.accountID = acc2;
-        gra1.joinDate = LocalDate.of(2021,11,11);
+        gra1.joinDate = LocalDate.of(2021, 11, 11);
 
         GroupAccount gra2 = new GroupAccount();
         gra2.groupID = gr1;
         gra2.accountID = acc2;
-        gra2.joinDate = LocalDate.of(2012,5,20);
+        gra2.joinDate = LocalDate.of(2012, 5, 20);
 
         GroupAccount gra3 = new GroupAccount();
         gra3.groupID = gr2;
         gra3.accountID = acc3;
-        gra3.joinDate = LocalDate.of(2020,10,9);
+        gra3.joinDate = LocalDate.of(2020, 10, 9);
 
         // TypeQuestion
         TypeQuestion tyq1 = new TypeQuestion();
@@ -125,7 +125,7 @@ public class Program {
         q1.creatorID = gr1;
         q1.categoryID = caq1;
         q1.typeID = tyq2;
-        q1.createDate = LocalDate.of(2022,10,19);
+        q1.createDate = LocalDate.of(2022, 10, 19);
 
         Question q2 = new Question();
         q2.questionID = 2;
@@ -133,7 +133,7 @@ public class Program {
         q2.creatorID = gr2;
         q2.categoryID = caq2;
         q2.typeID = tyq3;
-        q2.createDate = LocalDate.of(2022,10,19);
+        q2.createDate = LocalDate.of(2022, 10, 19);
 
         Question q3 = new Question();
         q3.questionID = 1;
@@ -141,22 +141,22 @@ public class Program {
         q3.creatorID = gr3;
         q3.categoryID = caq3;
         q3.typeID = tyq1;
-        q3.createDate = LocalDate.of(2022,10,19);
+        q3.createDate = LocalDate.of(2022, 10, 19);
 
         // Answer
-        Answer a1 =  new Answer();
+        Answer a1 = new Answer();
         a1.answerID = 1;
         a1.content = "Answer1";
         a1.questionID = q3;
         a1.isCorrect = false;
 
-        Answer a2 =  new Answer();
+        Answer a2 = new Answer();
         a2.answerID = 2;
         a2.content = "Answer2";
         a2.questionID = q2;
         a2.isCorrect = true;
 
-        Answer a3 =  new Answer();
+        Answer a3 = new Answer();
         a3.answerID = 3;
         a3.content = "Answer3";
         a3.questionID = q1;
@@ -169,8 +169,8 @@ public class Program {
         e1.title = "Java";
         e1.categoryID = caq1;
         e1.creatorID = gr2;
-        e1.duration = LocalTime.of(2, 0,0,0);
-        e1.createDate = LocalDate.of(2022,10,19);
+        e1.duration = LocalTime.of(2, 0, 0, 0);
+        e1.createDate = LocalDate.of(2022, 10, 19);
 
         Exam e2 = new Exam();
         e2.examID = 1;
@@ -178,8 +178,8 @@ public class Program {
         e2.title = "SQL";
         e2.categoryID = caq2;
         e2.creatorID = gr1;
-        e2.duration = LocalTime.of(1, 30,0,0);
-        e2.createDate = LocalDate.of(2022,10,19);
+        e2.duration = LocalTime.of(1, 30, 0, 0);
+        e2.createDate = LocalDate.of(2022, 10, 19);
 
         Exam e3 = new Exam();
         e3.examID = 1;
@@ -187,8 +187,8 @@ public class Program {
         e3.title = "Ruby";
         e3.categoryID = caq3;
         e3.creatorID = gr3;
-        e3.duration = LocalTime.of(0, 45,0,0);
-        e3.createDate = LocalDate.of(2022,10,19);
+        e3.duration = LocalTime.of(0, 45, 0, 0);
+        e3.createDate = LocalDate.of(2022, 10, 19);
 
         // ExamQuestion
         ExamQuestion exq1 = new ExamQuestion();
@@ -203,20 +203,27 @@ public class Program {
         exq3.examID = e2;
         exq3.questionID = q1;
 
-        System.out.println(dep1);
-        System.out.println(pos1);
-        System.out.println(acc1);
-        System.out.println(gr1);
-        System.out.println(gra1);
-        System.out.println(caq1);
-        System.out.println(tyq1);
-        System.out.println(q1);
-        System.out.println(a1);
-        System.out.println(e1);
-        System.out.println(exq1);
+        // System.out.println(dep1);
+        // System.out.println(pos1);
+        // System.out.println(acc1);
+        // System.out.println(gr1);
+        // System.out.println(gra1);
+        // System.out.println(caq1);
+        // System.out.println(tyq1);
+        // System.out.println(q1);
+        // System.out.println(a1);
+        // System.out.println(e1);
+        // System.out.println(exq1);
 
-
-
-
+        // Question 7:
+        switch (acc1.positionID){
+            case pos1:
+                System.out.println("Đây là Developer");
+            case pos2:
+                System.out.println("Người này không phải là Developer");
+            case pos3:
+                System.out.println("Người này không phải là Developer");
+        }
     }
-}
+    }
+
