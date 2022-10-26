@@ -1,8 +1,13 @@
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Program {
-    public static void main(String[] args) {
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.Locale;
+
+public class DateFormat {
+    public static void main(String[] args){
         // Department
         Department dep1 = new Department();
         dep1.departmentID = 1;
@@ -75,22 +80,6 @@ public class Program {
         gr3.groupName = "GroupName1";
         gr3.creatorID = acc2;
         gr3.createDate = LocalDate.of(2018, 12, 30);
-
-        //GroupAccount
-        GroupAccount gra1 = new GroupAccount();
-        gra1.groupID = gr3;
-        gra1.accountID = acc2;
-        gra1.joinDate = LocalDate.of(2021, 11, 11);
-
-        GroupAccount gra2 = new GroupAccount();
-        gra2.groupID = gr1;
-        gra2.accountID = acc2;
-        gra2.joinDate = LocalDate.of(2012, 5, 20);
-
-        GroupAccount gra3 = new GroupAccount();
-        gra3.groupID = gr2;
-        gra3.accountID = acc3;
-        gra3.joinDate = LocalDate.of(2020, 10, 9);
 
         // TypeQuestion
         TypeQuestion tyq1 = new TypeQuestion();
@@ -179,7 +168,7 @@ public class Program {
         e2.categoryID = caq2;
         e2.creatorID = gr1;
         e2.duration = LocalTime.of(1, 30, 0, 0);
-        e2.createDate = LocalDate.of(2022, 10, 19);
+        e2.createDate = LocalDate.of(2022, 5, 25);
 
         Exam e3 = new Exam();
         e3.examID = 1;
@@ -188,34 +177,79 @@ public class Program {
         e3.categoryID = caq3;
         e3.creatorID = gr3;
         e3.duration = LocalTime.of(0, 45, 0, 0);
-        e3.createDate = LocalDate.of(2022, 10, 19);
+        e3.createDate = LocalDate.of(2022, 1, 1);
 
-        // ExamQuestion
-        ExamQuestion exq1 = new ExamQuestion();
-        exq1.examID = e1;
-        exq1.questionID = q2;
+        // Question 1:
+        System.out.println("Question 1: ");
+        DateTimeFormatter myFormatDate = DateTimeFormatter.ofPattern("dd-MM-yyyy ");
+        String date = myFormatDate.format(e1.createDate);
+        DateTimeFormatter myFormatTime = DateTimeFormatter.ofPattern("HH:mm:ss ");
+        String time = myFormatTime.format(e1.duration);
+        System.out.println(" Thông tin exam thứ 1: ");
+        System.out.println(" Tiêu đề: " + e1.title);
+        System.out.println(" Ngày tạo: " + date);
+        System.out.println(" Thời gian: " + time);
 
-        ExamQuestion exq2 = new ExamQuestion();
-        exq2.examID = e3;
-        exq2.questionID = q2;
+        // Question 2:
+        System.out.println("\n Question 2: ");
+        Exam[] exams = {e1, e2, e3};
+        int i = 0;
+        for (Exam exam : exams){
+            DateTimeFormatter myFormatDate1 = DateTimeFormatter.ofPattern("dd-MM-yyyy ");
+            String date1 = myFormatDate1.format(exams[i].createDate);
+            DateTimeFormatter myFormatTime1 = DateTimeFormatter.ofPattern("HH:mm:ss ");
+            String time1 = myFormatTime1.format(exams[i].duration);
+            System.out.println(" Thông tin exam thứ " + (i + 1) + " là: ");
+            System.out.println(" Tiêu đề: " + exams[i].title);
+            System.out.println(" Ngày tạo: " + date1);
+            System.out.println(" Thời gian: " + time1);
+            i++;
+        }
 
-        ExamQuestion exq3 = new ExamQuestion();
-        exq3.examID = e2;
-        exq3.questionID = q1;
+        // Question 3:
+        System.out.println("\n Question 3: ");
+        int i1 = 0;
+        for (Exam exam : exams){
+            DateTimeFormatter myFormatDate1 = DateTimeFormatter.ofPattern("yyyy ");
+            String date2 = myFormatDate1.format(exams[i1].createDate);
+            DateTimeFormatter myFormatTime1 = DateTimeFormatter.ofPattern("HH:mm:ss ");
+            String time2 = myFormatTime1.format(exams[i1].duration);
+            System.out.println(" Thông tin exam thứ " + (i1 + 1) + " là: ");
+            System.out.println(" Tiêu đề: " + exams[i1].title);
+            System.out.println(" Ngày tạo: " + date2);
+            System.out.println(" Thời gian: " + time2);
+            i1++;
+        }
 
-         System.out.println(dep1);
-         System.out.println(pos1);
-         System.out.println(acc1);
-         System.out.println(gr1);
-         System.out.println(gra1);
-         System.out.println(caq1);
-         System.out.println(tyq1);
-         System.out.println(q1);
-         System.out.println(a1);
-         System.out.println(e1);
-         System.out.println(exq1);
+        // Question 4:
+        System.out.println("\n Question 4: ");
+        int i2 = 0;
+        for (Exam exam : exams){
+            DateTimeFormatter myFormatDate1 = DateTimeFormatter.ofPattern("MM-yyyy ");
+            String date3 = myFormatDate1.format(exams[i2].createDate);
+            DateTimeFormatter myFormatTime1 = DateTimeFormatter.ofPattern("HH:mm:ss ");
+            String time3 = myFormatTime1.format(exams[i2].duration);
+            System.out.println(" Thông tin exam thứ " + (i2 + 1) + " là: ");
+            System.out.println(" Tiêu đề: " + exams[i2].title);
+            System.out.println(" Ngày tạo: " + date3);
+            System.out.println(" Thời gian: " + time3);
+            i2++;
+        }
 
+        // Question 5:
+        System.out.println("\n Question 5: ");
+        int i3 = 0;
+        for (Exam exam : exams){
+            DateTimeFormatter myFormatDate1 = DateTimeFormatter.ofPattern("MM-dd ");
+            String date4 = myFormatDate1.format(exams[i3].createDate);
+            DateTimeFormatter myFormatTime1 = DateTimeFormatter.ofPattern("HH:mm:ss ");
+            String time4 = myFormatTime1.format(exams[i3].duration);
+            System.out.println(" Thông tin exam thứ " + (i3 + 1) + " là: ");
+            System.out.println(" Tiêu đề: " + exams[i3].title);
+            System.out.println(" Ngày tạo: " + date4);
+            System.out.println(" Thời gian: " + time4);
+            i3++;
+        }
     }
 
-    }
-
+}
