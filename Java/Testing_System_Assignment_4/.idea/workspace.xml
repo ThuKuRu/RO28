@@ -4,31 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e6eace-8078-4d5b-9e50-7611efbd116d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_2/out/production/Testing_System_Assignment_2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_2/out/production/Testing_System_Assignment_2/.idea/Testing_System_Assignment_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_2/out/production/Testing_System_Assignment_2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_2/out/production/Testing_System_Assignment_2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_2/out/production/Testing_System_Assignment_2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_2/out/production/Testing_System_Assignment_2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_2/src/src/Module.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/out/production/Testing_System_Assignment_3/src/Exercise2_DefaultValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/out/production/Testing_System_Assignment_3/src/Exercise3_BoxingUnboxing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/out/production/Testing_System_Assignment_3/src/Exercise4_String.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_2/out/production/src/InputFromConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_2/out/production/src/InputFromConsole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_2/out/production/src/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_2/src/src/Ex6_Method.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_2/src/src/InputFromConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_2/src/src/InputFromConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_2/src/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_3/.idea/Testing_System_Assignment_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/.idea/Testing_System_Assignment_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_3/Exercise1_DatatypeCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/Exercise1_DatatypeCasting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_3/out/production/Testing_System_Assignment_3/Exercise1_DatatypeCasting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/out/production/Testing_System_Assignment_3/Exercise1_DatatypeCasting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_3/src/Exercise2_DefaultValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/src/Exercise2_DefaultValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_3/src/Exercise3_BoxingUnboxing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/src/Exercise3_BoxingUnboxing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_3/src/Exercise4_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_3/src/Exercise4_String.java" afterDir="false" />
+    <list default="true" id="1ac5dd5d-fa33-4d4c-8bf4-3d3700d5927e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/Exercise1_Constructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/Group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/Position$PositionName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise1_Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/backend/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/backend/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/backend/Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/backend/QLCB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/backend/QLTL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Abstraction/Question1/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Abstraction/Question1/VietnamesePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Abstraction/Question2_3/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Abstraction/Question2_3/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Abstraction/Question2_3/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Abstraction/Question2_3/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/CategoryQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Encapsulation/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Encapsulation/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Encapsulation/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Encapsulation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/ExamQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/GroupAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/CanBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/CongNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/KySu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/Question3/HighSchoolStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/Question3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/Question3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/Question4/Bao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/Question4/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/Question4/TaiLieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/Question4/TapChi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/entity/TypeQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/frontend/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/frontend/Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/frontend/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/frontend/Inheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,38 +78,108 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GiZVjmWsFrRsB5zGJFVFqU0DBF" />
+  <component name="ProjectId" id="2Gqn5b5hQnPf59XwLNQ39rcuujY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
-    <option name="compactDirectories" value="true" />
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/MyPC/Desktop/RO28/Java/Testing_System_Assignment_3",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.scopes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MyPC/Desktop/RO28/Java/Testing_System_Assignment_4&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.Constructor">
+    <configuration name="Constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vti.frontend.Constructor" />
+      <module name="Testing_System_Assignment_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vti.frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise1_Constructor (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise1_Constructor" />
+      <module name="Testing_System_Assignment_4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise1_Constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="entity.Exercise1_Constructor" />
+      <module name="Testing_System_Assignment_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Testing_System_Assignment_4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vti.frontend.Program1" />
+      <module name="Testing_System_Assignment_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vti.frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Constructor" />
+        <item itemvalue="Application.Program1" />
+        <item itemvalue="Application.Exercise1_Constructor (1)" />
+        <item itemvalue="Application.Exercise1_Constructor" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b8e6eace-8078-4d5b-9e50-7611efbd116d" name="Changes" comment="" />
-      <created>1666873390862</created>
+      <changelist id="1ac5dd5d-fa33-4d4c-8bf4-3d3700d5927e" name="Changes" comment="" />
+      <created>1667124801526</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666873390862</updated>
+      <updated>1667124801526</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vti/entity/Encapsulation/Date.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
