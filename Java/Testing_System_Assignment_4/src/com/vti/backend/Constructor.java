@@ -1,4 +1,4 @@
-package com.vti.frontend;
+package com.vti.backend;
 
 import com.vti.entity.Account;
 import com.vti.entity.Department;
@@ -8,9 +8,7 @@ import com.vti.entity.Position;
 import java.time.LocalDate;
 
 public class Constructor {
-    public static void main(String[] args){
-        // Question 1:
-        // a)
+    public void question1() {
         Department dep1 = new Department();
         dep1.departmentID = 25;
         dep1.departmentName = "Bảo Vệ";
@@ -19,8 +17,10 @@ public class Constructor {
         Department dep2 = new Department("Giám Đốc");
         System.out.println(dep2);
         System.out.println(dep1);
+    }
 
-        // Question 2:
+    // Question 2:
+    public void question2() {
         Position pos1 = new Position();
         pos1.positionID = 1;
         pos1.positionName = Position.PositionName.DEV;
@@ -37,7 +37,6 @@ public class Constructor {
         acc1.setEmail("abc1@gmail.com");
         acc1.setUsername("Username1");
         acc1.fullName = "FullName12345";
-        acc1.departmentID = dep1;
         acc1.setPosition(pos1);
         acc1.setCreateDate(LocalDate.of(2022, 5, 23));
         // b)
@@ -50,24 +49,27 @@ public class Constructor {
         System.out.println(acc2);
         System.out.println(acc3);
         System.out.println(acc4);
+    }
 
-        // Question 3:
-        // a)
+    // Question 3:
+    public void question3() {
+
+        Account acc1 = new Account(1, "dang1@gmail.com", "dangblack1", "Nguyễn Hải", "Đăng1");
+        Account acc2 = new Account(2, "dang2@gmail.com", "dangblack2", "Nguyễn Hải", "Đăng2");
+        Account acc3 = new Account(3, "dang3@gmail.com", "dangblack3", "Nguyễn Hải", "Đăng3");
         Group gr1 = new Group();
         gr1.groupID = 1;
         gr1.groupName = "GroupName1";
-        gr1.setCreator(acc3);
+        gr1.setCreator(acc2);
         gr1.setCreateDate(LocalDate.of(2019, 9, 29));
         // b)
-        Account[] accounts = {acc1, acc3, acc4};
-        Group gr2 = new Group("Thực Tập", acc4.fullName, accounts , LocalDate.of(2019, 8, 30));
+        Account[] accounts = {acc1, acc3};
+        Group gr2 = new Group("Thực Tập", acc3.fullName, accounts, LocalDate.of(2019, 8, 30));
         // c)
         Account[] usernames = {acc1, acc2};
         Group gr3 = new Group("Hust", acc2.fullName, usernames, LocalDate.of(2019, 8, 30));
         System.out.println(gr1);
         System.out.println(gr2);
         System.out.println(gr3);
-
     }
-
 }

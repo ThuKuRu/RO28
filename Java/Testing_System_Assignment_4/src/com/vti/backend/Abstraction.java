@@ -9,20 +9,20 @@ import com.vti.entity.Abstraction.Question2_3.Waiter;
 public class Abstraction {
     public void question1() {
         Phone phone = new VietnamesePhone();
-        phone.insertContact("Đăng Black", "0825294200");
-        phone.removeContact("Đăng Black");
-        phone.updateContact("Đăng Black", "0962282193");
-        phone.searchContact("Đăng Black");
+        phone.insertContact("ThuKuRu", "0865456605");
+        phone.removeContact("ThuKuRu");
+        phone.updateContact("ThuKuRu", "0987847442");
+        phone.searchContact("ThuKuRu");
     }
 
     public void question2_3() {
-        Employee employee = new Employee("Đăng Black", 6.9);
+        Employee employee = new Employee("Nguyễn Thị Thu", 6.8);
         employee.displayInfo();
 
-        Manager manager = new Manager("Quang Anh", 9.6);
+        Manager manager = new Manager("Trần Quốc Khánh", 8.6);
         manager.displayInfo();
 
-        Waiter waiter = new Waiter("Chiến Panda", 2.6);
+        Waiter waiter = new Waiter("Trịnh Bá Hoàng", 5.6);
         waiter.displayInfo();
     }
 }

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class QLTL {
-    private List<TaiLieu> taiLieus;
+    private final List<TaiLieu> taiLieus;
 
     public QLTL() {
         taiLieus = new ArrayList<>();

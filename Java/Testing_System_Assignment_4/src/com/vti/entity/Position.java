@@ -5,6 +5,15 @@ public class Position {
 
     public PositionName positionName;
 
+    public Position(int i, String sale) {
+        this.positionID = i;
+        this.positionName = PositionName.valueOf(sale);
+    }
+
+    public Position() {
+
+    }
+
     public enum PositionName{
         DEV, TEST, SCRUM_MASTER, PM;
     }

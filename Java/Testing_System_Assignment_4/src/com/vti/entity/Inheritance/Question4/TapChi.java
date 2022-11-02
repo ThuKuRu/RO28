@@ -2,7 +2,7 @@ package com.vti.entity.Inheritance.Question4;
 
 import java.util.Scanner;
 
-public class TapChi {
+public class TapChi extends TaiLieu{
     private int soPhatHanh;
     private byte thangPhatHanh;
 
