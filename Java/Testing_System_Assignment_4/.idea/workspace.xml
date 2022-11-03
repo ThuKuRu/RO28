@@ -5,39 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ac5dd5d-fa33-4d4c-8bf4-3d3700d5927e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vti/backend/Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vti/frontend/ConstructorProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vti/frontend/EncapsulationProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vti/frontend/InheritanceProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/Testing_System_Assignment_5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/src/backend/MyNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/src/entity/Abstraction/Question1/INews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/src/entity/Abstraction/Question1/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/src/frontend/DemoProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/Testing_System_Assignment_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/backend/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/backend/Exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/entity/CanBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/entity/CongNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/entity/GioiTinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/entity/KySu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/entity/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/entity/QLCB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/frontend/Program2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/backend/Abstraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/backend/Abstraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/backend/Encapsulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/backend/Encapsulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/backend/Inheritance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/backend/Inheritance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/entity/Position$PositionName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/entity/Position$PositionName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/entity/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/entity/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/frontend/Abstraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/frontend/Constructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/frontend/Encapsulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_System_Assignment_4/com/vti/frontend/Inheritance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/backend/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/Abstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/backend/Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/Inheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/backend/QLTL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/QLTL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/entity/Abstraction/Question1/VietnamesePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Abstraction/Question1/VietnamesePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/Question4/TapChi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Inheritance/Question4/TapChi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/entity/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/frontend/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/frontend/AbstractionProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/frontend/Constructor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/frontend/Encapsulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vti/frontend/Inheritance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_5/out/production/Testing_System_Assignment_5/backend/TuyenSinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/out/production/Testing_System_Assignment_5/backend/TuyenSinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_5/out/production/Testing_System_Assignment_5/entity/Abstraction/Question1/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/out/production/Testing_System_Assignment_5/entity/Abstraction/Question1/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_5/src/entity/Abstraction/Question1/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_5/src/entity/Abstraction/Question1/News.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

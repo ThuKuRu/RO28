@@ -17,7 +17,8 @@ public class News implements INews{
         private int[] rates;
 
     public int getId() {
-        return id;
+        i++;
+        return i;
     }
 
     public void setId(int id) {
@@ -52,6 +53,8 @@ public class News implements INews{
         return content;
     }
 
+    public static int i = 0;
+
     public void setContent(String content) {
         this.content = content;
     }
@@ -85,7 +88,9 @@ public class News implements INews{
 
     @Override
     public void display() {
-        System.out.println( "title='" + title + '\'' +
+        i = i + 1;
+        System.out.println("id='" + id + '\'' +
+                ", title='" + title + '\'' +
                 ", publishDate='" + publishDate + '\'' +
                 ", author='" + author + '\'' +
                 ", content='" + content + '\'' +
