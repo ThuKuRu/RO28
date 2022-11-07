@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5af6f526-584b-4b2d-bda3-affb113b1d28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BaiTap/src/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing_System_Assignment_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Testing_System_Assignment_7/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Final/Ques1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Final/Ques2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Final/Ques3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Question1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Question3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Question4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Question5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Question6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Question7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/Question8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Configs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Final/MyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Final/PrimaryStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Final/ScannerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Final/SecondaryStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Final/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Geometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/GeometryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/MyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/PrimarySchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/SecondarySchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Exercise3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Exercise4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Exercise5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Exercise6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Exercise7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Exercise8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Final/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Final/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/Final/Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing_System_Assignment_7demo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/entity/Exception/ScannerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing_System_Assignment_6/src/entity/Exception/ScannerUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H5E0Ytt1ELIq6mzde2AMKOSpMe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MyPC/Desktop/RO28/Java/Testing_System_Assignment_6&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.FileManager">
+    <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frontend.Ex1" />
+      <module name="Testing_System_Assignment_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frontend.Final.Ex2" />
+      <module name="Testing_System_Assignment_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frontend.Final.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frontend.Final.Ex3" />
+      <module name="Testing_System_Assignment_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frontend.Final.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frontend.Exercise8" />
+      <module name="Testing_System_Assignment_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.FileManager" />
+      <module name="Testing_System_Assignment_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileManager" />
+        <item itemvalue="Application.Ex3" />
+        <item itemvalue="Application.Ex2" />
+        <item itemvalue="Application.Ex1" />
+        <item itemvalue="Application.Exercise8" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5af6f526-584b-4b2d-bda3-affb113b1d28" name="Changes" comment="" />
+      <created>1667566323710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667566323710</updated>
+    </task>
+    <servers />
+  </component>
+</project>

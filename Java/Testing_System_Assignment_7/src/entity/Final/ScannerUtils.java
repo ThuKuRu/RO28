@@ -1,9 +1,10 @@
-package entity.Exception;
+package entity.Final;
+
 
 import java.util.Scanner;
 
-public class ScannerUtils {
-          static Scanner scanner = new Scanner(System.in);
+    public class ScannerUtils {
+        static Scanner scanner = new Scanner(System.in);
 
         public static int inputInt(String errorMessage){
             while (true) {
@@ -71,5 +72,6 @@ public class ScannerUtils {
                 }
             }
         }
+
 
 }
