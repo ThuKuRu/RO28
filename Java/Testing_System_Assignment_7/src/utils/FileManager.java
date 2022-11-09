@@ -1,6 +1,12 @@
 package utils;
 
+import javax.naming.MalformedLinkException;
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
 import java.nio.file.Files;
 import java.sql.SQLOutput;
 
@@ -109,6 +115,37 @@ public class FileManager {
             throw new Exception(" Error! Folder is Exists");
         }
         new File(newPathFolder).mkdir();
+    }
+
+    public static void downloadFile(String fileLink, String folder) throws Exception {
+        File folderSave = new File(folder);
+        if(!isFolder(folder) || !isFolderExits(folder)){
+            throw new Exception(" Folder not Exists or Not Folder");
+        }
+
+        String s[] = fileLink.split("/");
+        String name = s[s.length - 1];
+        folder = folder + "/" + name;
+        URL url = new URL(fileLink);
+
+        URLConnection connection = url.openConnection();
+        int size = connection.getContentLength();
+        InputStream in = connection.getInputStream();
+        FileOutputStream output = new FileOutputStream(folder);
+        int byteDownloaded = 0;
+        byte[] b = new byte[1024];
+
+        int length = in.read(b);
+        while (length != -1){
+            byteDownloaded += length;
+            System.out.println(byteDownloaded * 100f / size + "%");
+            output.write(b, 0, length);
+            length = in.read(b);
+        }
+
+        output.close();
+        in.close();
+        System.out.println(" Download file success");
     }
 
 }
